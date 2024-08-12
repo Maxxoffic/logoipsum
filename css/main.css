@@ -1,0 +1,278 @@
+:root {
+  --active-color: #5454D4;
+  --accent-color: #FF7143;
+  --gray-color: #696871;
+  --black-color: #19191B;
+  --blue-color: #1D293F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto auto;
+  padding: 0 24px;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.menu__title-home {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 15px;
+  transition: color .3s ease-in-out;
+}
+
+.menu__title {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 15px;
+  transition: color .3s ease-in-out;
+}
+
+.menu__title:hover {
+  color: var(--black-color);
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--gray-color);
+}
+
+.header__logo-general {
+  height: 25px;
+}
+
+.menu_line {
+  width: 41px;
+  height: 2px;
+  background-color: var(--active-color);
+  margin: 10px 0 auto 15px;
+}
+
+.menu_title_home {
+  color: var(--black-color);
+}
+
+.header__button {
+  height: 40px;
+  width: 100px;
+  margin: auto 8px 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+  font-size: 16px;
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+.header__burger {
+  width: 30px;
+  height: 30px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: auto;
+  margin: 50px auto;
+  padding: 0 24px;
+}
+
+.main__offer {
+  width: 100%;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--black-color);
+}
+
+.main__offer-text {
+  margin: 8px 0 50px 0;
+
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--gray-color);
+}
+
+.main__offer-button-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__offer-button {
+  height: 60px;
+  width: 182px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-right: 8px;
+
+  
+  font-size: 17px;
+  background-color: var(--active-color);
+  color: #fff;
+}
+
+.main__offer-arrow {
+  height: 60px;
+  width: 60px;
+  display: block;
+  justify-content: end;
+  align-items: center;
+}
+
+.main__offer-img {
+  width: 100%;
+}
+
+.partners {
+  width: 100%;
+  padding: 0 24px;
+  margin: 0 auto 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__logo {
+  display: block;
+  margin: 10px auto;
+}
+
+.search__img {
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+
+.search__img-statistic {
+  height: 123px;
+  position: relative;
+  margin-bottom: 120px;
+  margin-right: 8px;
+}
+
+.search-trainee {
+  width: 121px;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 7px;
+  margin-right: 203px;
+}
+
+.search__img-trainee {
+  height: 330px;
+}
+
+.search__form-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.search__form {
+  width: 300px;
+  height: 440px;
+  border-radius: 16px;
+  background-color: var(--active-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.form-text0 {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: 700px;
+  color: #fff;
+  margin: 35.5px 0;
+}
+
+.form1 {
+  width: 280px;
+  height: 65px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 16.3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-text1 {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--gray-color);
+  margin-left: 15px;
+}
+
+.form-text2 {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--blue-color);
+  margin-left: 15px;
+}
+
+.search-form-button {
+  height: 60px;
+  width: 211px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 8.3px;
+
+  font-size: 17px;
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
