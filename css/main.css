@@ -135,16 +135,16 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .main__offer-button {
   height: 60px;
-  width: 182px;
+  width: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  margin-right: 8px;
   font-size: 17px;
   background-color: var(--active-color);
   color: #fff;
@@ -156,6 +156,8 @@ h1 {
   display: block;
   justify-content: end;
   align-items: center;
+  position: absolute;
+  right: 0;
 }
 
 .main__offer-img {
@@ -295,7 +297,11 @@ h1 {
 
   .main__offer-button {
     width: 211px;
-    margin-right: 40px;
+  }
+
+  .main__offer-arrow {
+  position: absolute;
+  right: 20px;
   }
 }
 
@@ -337,6 +343,10 @@ h1 {
     margin-right: 40px;
     margin-left: 0px;
   }
+
+  .main__offer-arrow {
+    position: unset;
+    }
   
   .partners {
     margin-bottom: 100px;
