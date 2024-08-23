@@ -101,6 +101,7 @@ a {
   background-color: var(--accent-color);
   color: #fff;
   transition: color .3s ease-in-out;
+  cursor: pointer;
 }
 
 .header__button:hover {
@@ -157,6 +158,7 @@ h1 {
   background-color: var(--active-color);
   color: #fff;
   transition: color .3s ease-in-out;
+  cursor: pointer;
 }
 
 .main__offer-button:hover {
@@ -292,7 +294,8 @@ h1 {
   font-size: 17px;
   background-color: var(--accent-color);
   color: #fff;
-  transition: color .3s ease-in-out
+  transition: color .3s ease-in-out;
+  cursor: pointer;
 }
 
  .search-form-button:hover {
