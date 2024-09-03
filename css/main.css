@@ -159,7 +159,6 @@ a {
 }
 
 .header__button:hover {
-  color: var(--black-color);
   background-color: #ff5e28;
 }
 
@@ -227,6 +226,13 @@ h1 {
   align-items: center;
   position: absolute;
   right: 0;
+  transition: color .3s ease-in-out;
+}
+
+.main__offer-arrow:hover {
+  height: 60px;
+  width: 60px;
+  filter: contrast(95%);
 }
 
 .main__offer-img {
@@ -321,6 +327,14 @@ h1 {
   margin-left: 15px;
 }
 
+.form-label {
+  position: relative;
+  padding: 20px 15px;
+  color: var(--black-color);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
 .search-form-button {
   height: 60px;
   width: 211px;
@@ -338,7 +352,6 @@ h1 {
 
  .search-form-button:hover {
   background-color: #ff5e28;
-  color: #19191B;
  }
 
  button {
